@@ -54,6 +54,10 @@ Silhouette Score - This metric is the standard one for gauging how well a cluste
 # Goals:
 Create an accurate machine learning model and also gather information about the genetic disorders that can help researchers and medical professionals.
 
+To keep the models lightweight for and for sustainability, not excessively overusing LLMs
+
+It is important that our model does not output biased results where it is more accurate toward a specific gender or race
+
 Given the nature of genetics we predict the Neural Network will do the best, with the Random Forest possibly lacking the necessary robustness for this task. The clustering might highlight a few important attributes, but may struggle to convey the full picture.
 
 # References
