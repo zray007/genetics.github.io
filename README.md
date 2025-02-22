@@ -20,6 +20,7 @@ Our project analyzes 22,000 young patients with genetic disorders, categorizing 
 13. Assisted Conception - Infertility treatment type (Epigenetic & Spontaneous Mutation)
 14. No. of Previous Abortions - Prior pregnancy genetic issues (Hereditary)
 15. Birth Defect - Congenital abnormality (Hereditary)
+
 # Problem Definition:
 In healthcare, “models can provide automated prediction, as well as can perform assistive roles for medical experts” [1]. Using machine learning models in predicting genetic diseases have proven to “have increased predictive capabilities for the risk of complex diseases” compared to other risk assessment tests such as polygenic risk scores. [2] Identifying genetic alterations helps doctors tailor treatments for better long-term effectiveness. Understanding the cause of a patient’s disorder aids in precision and preventative medicine, allowing for personalized care and potential disease prevention through targeted treatments based on an individual’s genetic profile. 
 
@@ -35,8 +36,10 @@ BERT can transform ostensibly useless data into meaningful data, like location o
 ## Models:
 Random Forest:
 - sklearn.ensemble.RandomForestClassifier can create an ensemble model capable of finding relationships, though not as deep or recursive as those in a neural network.
+
 Neural Network:
 - PyTorch can be used to build deep Neural Networks capable of finding more intricate relationships.
+
 K-Means Clustering (Unsupervised Model):
 - sklearn.cluster.KMeans can cluster patients by health conditions and risk factors, providing information about key attributes and potentially aiding other models, despite its limitations.
 - Using K-means would be useful in our case since “Unsupervised learning algorithms are especially useful to detect patterns in data sets that have large amounts of data points” [3]
