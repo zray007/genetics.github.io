@@ -23,7 +23,7 @@ Our project analyzes 22,000 young patients with genetic disorders, categorizing 
 15. Birth Defect - Hereditary
 
 # Problem Definition:
-In healthcare, “models can provide automated prediction, as well as can perform assistive roles for medical experts” [1]. Using machine learning models in predicting genetic diseases have proven to “have increased predictive capabilities for the risk of complex diseases” compared to other risk assessment tests such as polygenic risk scores. [2] Understanding the cause of a patient’s disorder aids in precision and preventative medicine, allowing for personalized care and potential disease prevention through targeted treatments based on an individual’s genetic profile. We want to create a model that can predict an individual's risk of certain genetic diseases based on the given factors.
+In healthcare, “models can provide automated prediction, as well as can perform assistive roles for medical experts” [1]. Using machine learning models in predicting genetic diseases have proven to “have increased predictive capabilities for the risk of complex diseases” compared to other risk assessment tests such as polygenic risk scores. [2] Understanding the cause of a patient’s disorder aids in precision and preventative medicine, allowing for personalized care and potential disease prevention through targeted treatments based on an individual’s genetic profile. We want to create a model that can predict an individual's risk of certain genetic diseases based on the given factors and find possible associated causes for genetic diseases.
 
 # Methods:
 ## Preprocessing:
