@@ -2,8 +2,7 @@
 # Proposal Video
 
 # Introduction
-Life’s foundation is reproduction—genetic information passed down with small changes. Over time, mutations have shaped human evolution, sometimes leading to beneficial adaptations while others cause genetic diseases.
-Genetic disorders affect 2% to 5% of all childbirths are diagnosed with genetic disorders that may lead to 5% to 50% of deaths in the childhood [2] and can be inherited, arise spontaneously, or be influenced by environmental factors. Cystic fibrosis, is an autosomal recessive disorder requiring both parents to be carriers. In contrast, mutations like p53, linked to cancer, may occur spontaneously. Some conditions, like type 2 diabetes, develop due to external factors such as diet or prenatal substance exposure.
+Life’s foundation is reproduction—genetic information passed down with small changes. Over time, mutations have shaped human evolution, sometimes leading to beneficial adaptations while others cause genetic diseases. Genetic disorders affect 2% to 5% of all childbirths are diagnosed with genetic disorders that may lead to 5% to 50% of deaths in the childhood [2] and can be inherited, arise spontaneously, or be influenced by environmental factors [3, 4]. Cystic fibrosis, is an autosomal recessive disorder requiring both parents to be carriers [5]. In contrast, mutations like p53, linked to cancer, may occur spontaneously [6]. Some conditions, like type 2 diabetes, develop due to external factors such as diet or prenatal substance exposure [7].
 ## Dataset
 Our project analyzes 22,000 young patients with genetic disorders, categorizing key features into hereditary, spontaneous mutations, and epigenetic influences to investigate their impact.
 1. Genes in Mother’s Side - Hereditary
@@ -58,8 +57,16 @@ Create an accurate machine learning model and also gather information about the 
 Given the nature of genetics we predict the Neural Network will do the best, with the Random Forest possibly lacking the necessary robustness for this task. The clustering might highlight a few important attributes, but may struggle to convey the full picture.
 
 # References
-[1] A. Raza et al., “Predicting Genetic Disorder and Types of Disorder Using Chain Classifier Approach,” Genes, vol. 14, no. 1, p. 71, Dec. 2022, doi: https://doi.org/10.3390/genes14010071.
+[1] A. Raza et al., "Predicting Genetic Disorder and Types of Disorder Using Chain Classifier Approach," Genes, vol. 14, no. 1, p. 71, Dec. 2022. [Online]. Available: https://doi.org/10.3390/genes14010071
 
-[2] “Advances in Distributed Computing and Artificial Intelligence Journal : 9, Regular Issue 1, 2020,” Advances in Distributed Computing and Artificial Intelligence Journal. - Quadrimestrale = Four-monthly, vol. 9, regular issue, no. 1, pp. 1–120, Feb. 2025, Accessed: Feb. 21, 2025. [Online]. Available: https://www.torrossa.com/en/resources/an/5010975
+[2] “Advances in Distributed Computing and Artificial Intelligence Journal : 9, Regular Issue 1, 2020,” Advances in Distributed Computing and Artificial Intelligence Journal. - Quadrimestrale = Four-monthly, vol. 9, regular issue, no. 1, pp. 1–120, Feb. 2025. [Online]. Available: https://www.torrossa.com/en/resources/an/5010975
 
-[3] S. Rauschert, K. Raubenheimer, P. E. Melton, and R. C. Huang, “Machine learning and clinical epigenetics: a review of challenges for diagnosis and classification,” Clinical Epigenetics, vol. 12, no. 1, Apr. 2020, doi: https://doi.org/10.1186/s13148-020-00842-4.
+[3] J. Zarocostas, "Serious birth defects kill at least three million children a year," BMJ, vol. 332, no. 7536, p. 226, Feb. 2006. [Online]. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1360426/
+
+[4] S. Rauschert, K. Raubenheimer, P. E. Melton, and R. C. Huang, "Machine learning and clinical epigenetics: a review of challenges for diagnosis and classification," Clinical Epigenetics, vol. 12, no. 1, Apr. 2020. [Online]. Available: https://doi.org/10.1186/s13148-020-00842-4
+
+[5] M. S. Castellani et al., "Cystic Fibrosis-Related Diabetes (CFRD): Overview of Associated Genetic Factors," International Journal of Molecular Sciences, vol. 22, no. 6, p. 3136, Mar. 2021. [Online]. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8005125/
+
+[6] M. G. Goggins et al., "Genetics and Genetic Testing in Pancreatic Cancer," Gastroenterology, vol. 149, no. 3, pp. 676–689, Sep. 2015. [Online]. Available: https://www.gastrojournal.org/article/S0016-5085(15)01089-6/fulltext
+
+[7] A. T. Hattersley and S. Ellard, "Monogenic Diabetes: What It Teaches Us on the Common Forms of Diabetes," Endocrine Reviews, vol. 37, no. 3, pp. 190–222, Jun. 2016. [Online]. Available: https://academic.oup.com/edrv/article/37/3/190/2354693
